@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #131313;
+    color: #f6f6f6;
+}
+
+header {
+    background: #181818;
+    padding: 18px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px #000a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: #ffd700;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f6f6f6;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+main {
+    max-width: 700px;
+    margin: 40px auto 60px auto;
+    padding: 0 18px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #131313;
+    font-weight: bold;
+    padding: 12px 32px;
+    border-radius: 22px;
+    text-decoration: none;
+    box-shadow: 0 4px 20px #ffd70033;
+    transition: background 0.2s, color 0.2s;
+}
+
+.cta-btn:hover {
+    background: #fff7b2;
+    color: #181818;
+}
+
+.about h2,
+.contact h2 {
+    color: #ffd700;
+}
+
+.about p {
+    margin-bottom: 16px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px #0003;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #2a2a2a;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #ffd700;
+}
+
+button[type="submit"] {
+    background: #ffd700;
+    color: #131313;
+    font-weight: bold;
+    padding: 10px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #fff7b2;
+}
+
+#formStatus {
+    margin-top: 10px;
+    font-size: 0.98rem;
+    min-height: 22px;
+}
+
+footer {
+    background: #181818;
+    color: #bbb;
+    text-align: center;
+    padding: 14px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
